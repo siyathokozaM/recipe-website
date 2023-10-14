@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  background-image: url(/src/images/img15.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/************************************ NAVBAR ********************************/
+
+.navBar {
+  position: sticky;
+  background: rgb(234, 223, 223, 0.7);
+  /* top: auto; */
+}
+.sweet {
+  color: #23211f;
+  font-weight: 700;
+  font-size: 40px;
+}
+.tooth {
+  color: #0e9494;
+  font-weight: 700;
+  font-size: 40px;
+  padding-left: 3px;
+}
+
+.nav-link {
+  color: #0e9494;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.nav-link:active {
+  background-color: #0e9494;
+  border-bottom: 2px;
+}
+
+.button--box {
+  width: 100%;
+  padding: 5px;
+}
+
+.menu--bar {
+  float: right;
+  background: none;
+  border: none;
+  justify-content: center;
+  display: none;
+}
+
+.fa {
+  background: #08e8e8;
+  width: fit-content;
+  border: #08e8e8;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .logo .sweet,
+  .tooth {
+    background: #000;
+    padding: 10px;
+
+    display: none;
+  }
+  .nav-pills {
+    display: none;
+  }
+
+  .menu--bar {
+    display: block;
+  }
+}
+
+/************************************ HERO SECTION ******************************/
+.hero {
+  background: rgb(234, 223, 223, 0.7);
+  /* background-image: url(/src/images/hero-bg.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.first-head {
+  margin-left: 5%;
+  width: fit-content;
+  max-width: 600px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+.scnd-head {
+  margin-left: 5%;
+  width: fit-content;
+  max-width: 700px;
+  font-weight: 500;
+}
+.para {
+  margin-left: 5%;
+  width: fit-content;
+  max-width: 650px;
+  font-size: 20px;
+}
+
+.explore-button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  background: #0e9494;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.explore-button:hover {
+  background: #076262;
+  transition: all 0.5s ease-out;
+  .fa {
+    background: none;
+    height: auto;
+  }
+}
+
+/********************************** ABOUT US *****************************/
+.about--us {
+  background: rgb(248, 254, 255);
+  /* background-image: url(./images/monika-grabkowska-neu4T59mTcY-unsplash.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.crd {
+  text-align: center;
+  width: 250px;
+  max-width: 300px;
+  background: #eeeced;
+  color: #000000;
+}
+
+.crd .fa-sharp {
+  margin-top: 20px;
+  color: #0e9494;
+}
+
+.about--sweet {
+  color: #23211f;
+  font-weight: 700;
+}
+.about--tooth {
+  color: #08e8e8;
+  font-weight: 700;
+  padding-left: 3px;
+}
+.about-logo {
+  margin-left: 5%;
+  width: fit-content;
+}
+
+.crd h4 {
+  font-weight: 700;
+}
+.grid img {
+  width: 100px;
+}
+
+/********************************************* CONTENT *******************************/
+
+.content h1 {
+  font-weight: 700;
+}
+/********************************************** CONTACT **********************************/
+
+.contact {
+  background: rgb(234, 223, 223, 0.7);
+}
+
+.contact .fas {
+  color: #0e9494;
+}
+
+.contact .btn {
+  padding: 10px 30px;
+  font-weight: 700;
+  border: none;
+}
+
+.contact label {
+  font-weight: 600;
+}
+.contact textarea {
+  resize: none;
+}
+.contact .btn:hover {
+  background: #0e9494;
+  border: none;
+}
+
+/********************************************** FOOTER ************************************/
+.footer {
+  color: #fff;
+  background-color: #0e9494;
+}
+
+.footer .nav a {
+  color: #313030;
+  text-decoration: none;
+}
