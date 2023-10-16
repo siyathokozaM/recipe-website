@@ -1,0 +1,97 @@
+export default [
+  {
+    id: 1,
+    name: " EASY CHOCOLATE CAKE",
+    description:
+      "A one bowl chocolate cake recipe that is quick, easy, and delicious! Updated with gluten-free, dairy-free, and egg-free options!",
+    ingredients: [
+      "all-purpose flour",
+      "sugar",
+      "unsweetened cocoa powder",
+      "baking powder",
+      "baking soda",
+      "salt",
+      "espresso powder",
+      "milk",
+      "oil",
+      "eggs",
+      "vanilla extract",
+      "boiling water",
+    ],
+    instructions: [
+      "Prep. Preheat the oven to 350º F. Prepare two 9-inch cake pans by spraying with baking spray or buttering and lightly flouring.",
+      "Whisk dry ingredients. Add flour, sugar, cocoa, baking powder, baking soda, salt and espresso powder to a large bowl or the bowl of a stand mixer. Whisk through to combine or, using your paddle attachment, stir through flour mixture until combined well.",
+      "Mix in wet ingredients. Add milk, vegetable oil, eggs, and vanilla to flour mixture and mix together on medium speed until well combined. Reduce speed and carefully add boiling water to the cake batter until well combined.",
+      "Bake. Distribute cake batter evenly between the two prepared cake pans. Bake for 30-35 minutes, until a toothpick or cake tester inserted in the center of the chocolate cake comes out clean.",
+      "Frost. Remove from the oven and allow to cool for about 10 minutes, remove from the pan and cool completely. Frost with Chocolate Buttercream Frosting.",
+    ],
+    imgUrl: "../images/img3.jpg",
+  },
+  {
+    id: 2,
+    name: "BEST CAKE DOUGHNUTS",
+    description:
+      "A cake donut recipe that's simple to make and lightly spiced with cinnamon and nutmeg. Coat with cinnamon sugar or a confectioners' sugar glaze.",
+    ingredients: [
+      "2 cups all-purpose flour",
+      "½ cup white sugar",
+      "1 tablespoon baking powder",
+      "1 teaspoon salt",
+      "¼ teaspoon ground cinnamon",
+      "1 dash ground nutmeg",
+      "2 tablespoons melted butter",
+      "½ cup milk",
+      "1 egg, beaten",
+      "1 quart oil for frying",
+    ],
+    instructions: [
+      "Heat oil in a deep-fryer to 375 degrees F (190 degrees C).",
+      "Sift together flour, sugar, baking powder, salt, cinnamon, and nutmeg in a large bowl. Mix in butter until crumbly. Stir in milk and egg until smooth.",
+      "Knead lightly, then turn out onto a lightly floured surface. Roll or pat to 1/4-inch thickness. Cut with a doughnut cutter, or use two round biscuit cutters of different sizes.",
+      "Lay doughnuts in hot oil, a few at a time. Do not overcrowd the pan, or oil may overflow. Fry, turning once, until golden, about 3 minutes. Drain on paper towels.",
+    ],
+    imgUrl: "../images/img3.jpg",
+  },
+  {
+    id: 3,
+    name: "EASY CHOCOLATE BROWNIE CAKE",
+    description:
+      "The perfect cake for brownie lovers, try a big slice warm with some ice cream",
+    ingredients: [
+      "175g unsalted butter, plus extra for greasing",
+      "225g dark chocolate, broken into pieces",
+      "200g caster sugar",
+      "3 medium eggs, separated",
+      "65g plain flour",
+      "50g chopped pecan nuts",
+    ],
+    instructions: [
+      "Heat oven to 180C/fan 160C/gas 4. Butter a 20-25cm cake tin and line with greaseproof paper.",
+      "Place 175g/6oz of the chocolate, plus the butter and sugar in a heavy-based pan and heat gently until melted, stirring occasionally. Leave to cool.",
+      "Whisk the egg yolks into the chocolate mixture, then add the flour, nuts and the remaining chocolate.",
+      "Whisk the egg whites until they form soft peaks, then gently, but thoroughly, fold into the chocolate mixture.",
+      "Pour into the prepared tin and bake in the centre of the oven for about 35-40 mins until crusty on top. Leave to cool, then run a knife around the sides and remove from the tin. Dust with icing sugar and serve warm with custard or ice cream or cold with cream.",
+    ],
+    imgUrl: "../images/img3.jpg",
+  },
+  {
+    id: 4,
+    name: "EASY BISCUITS",
+    description:
+      "This simple recipe for a basic biscuit dough can be adapted to suit your tastes – experiment with different shapes and flavours, from lemon fingers to chocolate",
+    ingredients: [
+      "250g butter",
+      "softened",
+      "140g caster sugar",
+      "1 egg yolk",
+      "2 tsp vanilla extract",
+      "300g plain flour",
+    ],
+    instructions: [
+      "Mix the butter and sugar in a large bowl with a wooden spoon, then add the egg yolk and vanilla extract and briefly beat to combine.",
+      "Sift over the flour and stir until the mixture is well combined – you might need to get your hands in at the end to give everything a really good mix and press the dough together.",
+      "For basic vanilla biscuits: Pre-heat the oven to 180C/160C fan/gas 4. Chill the dough for 20 - 30minutes, roll out and cut out shapes as above. Bake on a non-stick baking tray for 10-12 minutes until pale golden. Carefully transfer to a wire rack to cool and crisp up.",
+    ],
+    imgUrl: "../images/img3.jpg",
+  },
+];

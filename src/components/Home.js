@@ -84,8 +84,11 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="content container-fluid justify-content-center text-center  p-5 mb-5 ">
-        <h1 className="mb-5 mt-2 text-white">OUR MOST FAVOURITE RECIPES</h1>
+      <div className=" container-fluid justify-content-center text-center  p-5 mb-5 ">
+        <h1 className="mb-5 mt-2 text-white">
+          {" "}
+          <strong>OUR MOST FAVOURITE RECIPES </strong>{" "}
+        </h1>
 
         <button className="explore-button">EXPLORE NOW</button>
       </div>
