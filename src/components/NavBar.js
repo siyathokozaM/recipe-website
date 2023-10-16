@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 export default function NavBar() {
   return (
     <div className="">
-      <div className="container-fluid  navBar  ">
+      <div className="container-fluid shadow navBar  ">
         <header className="d-flex flex-wrap justify-content-md-center py-3  ">
           <NavLink
             to="/"
@@ -34,6 +34,11 @@ export default function NavBar() {
             <li className="nav-item">
               <NavLink to="/contact" className="nav-link">
                 Contact us
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/details" className="nav-link">
+                recipePage
               </NavLink>
             </li>
           </ul>

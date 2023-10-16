@@ -5,6 +5,7 @@ import img1 from "../images/c7.jpg";
 import img2 from "../images/img12.jpg";
 import img3 from "../images/img10.jpg";
 import img4 from "../images/c8.jpg";
+import About from "./About";
 
 export default function Hero() {
   return (

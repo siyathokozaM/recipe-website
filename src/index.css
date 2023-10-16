@@ -14,29 +14,30 @@
 
 .navBar {
   position: sticky;
-  background: rgb(234, 223, 223, 0.7);
+  /* background: rgb(234, 223, 223, 0.7); */
+  background: #fff;
   /* top: auto; */
 }
 .sweet {
   color: #23211f;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
 }
 .tooth {
   color: #0e9494;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   padding-left: 3px;
 }
 
 .nav-link {
-  color: #0e9494;
+  color: #000;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .nav-link:hover {
-  color: #fff;
+  color: #0e9494;
 }
 
 .nav-link:active {
@@ -83,7 +84,8 @@
 
 /************************************ HERO SECTION ******************************/
 .hero {
-  background: rgb(234, 223, 223, 0.7);
+  background: rgba(255, 255, 255, 0.8);
+  /* background: #fff; */
   /* background-image: url(/src/images/hero-bg.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
@@ -230,6 +232,42 @@
   .content ul li img {
     max-width: 250px;
   }
+}
+
+/********************************************** RECIPE ***********************************/
+
+.recipe {
+  background: #ffffff;
+}
+
+.recipe img {
+  max-width: 500px;
+}
+
+.recipe .fa {
+  background: none;
+}
+
+.recipe .fa-star {
+  color: goldenrod;
+}
+
+.recipe .ingred li {
+  list-style-type: none;
+}
+
+/* .recipe .ingred li::marker {
+  content:"-" ;
+  color: #0e9494;
+  font-size: 1.2rem;
+} */
+
+.recipe .list-icon {
+  max-width: 40px;
+}
+.recipe .instr ul {
+  list-style-type: none;
+  padding: 0;
 }
 /********************************************** CONTACT **********************************/
 

@@ -2,6 +2,8 @@ export default [
   {
     id: 1,
     name: " EASY CHOCOLATE CAKE",
+    rating: 4.9,
+    users: 3075,
     description:
       "A one bowl chocolate cake recipe that is quick, easy, and delicious! Updated with gluten-free, dairy-free, and egg-free options!",
     ingredients: [
@@ -25,11 +27,13 @@ export default [
       "Bake. Distribute cake batter evenly between the two prepared cake pans. Bake for 30-35 minutes, until a toothpick or cake tester inserted in the center of the chocolate cake comes out clean.",
       "Frost. Remove from the oven and allow to cool for about 10 minutes, remove from the pan and cool completely. Frost with Chocolate Buttercream Frosting.",
     ],
-    imgUrl: "../images/img3.jpg",
+    imgUrl: "../images/c8.jpg",
   },
   {
     id: 2,
     name: "BEST CAKE DOUGHNUTS",
+    rating: 4.9,
+    users: 1050,
     description:
       "A cake donut recipe that's simple to make and lightly spiced with cinnamon and nutmeg. Coat with cinnamon sugar or a confectioners' sugar glaze.",
     ingredients: [
@@ -50,11 +54,13 @@ export default [
       "Knead lightly, then turn out onto a lightly floured surface. Roll or pat to 1/4-inch thickness. Cut with a doughnut cutter, or use two round biscuit cutters of different sizes.",
       "Lay doughnuts in hot oil, a few at a time. Do not overcrowd the pan, or oil may overflow. Fry, turning once, until golden, about 3 minutes. Drain on paper towels.",
     ],
-    imgUrl: "../images/img3.jpg",
+    imgUrl: "../images/c11.jpg",
   },
   {
     id: 3,
     name: "EASY CHOCOLATE BROWNIE CAKE",
+    rating: 4.5,
+    users: 400,
     description:
       "The perfect cake for brownie lovers, try a big slice warm with some ice cream",
     ingredients: [
@@ -72,11 +78,13 @@ export default [
       "Whisk the egg whites until they form soft peaks, then gently, but thoroughly, fold into the chocolate mixture.",
       "Pour into the prepared tin and bake in the centre of the oven for about 35-40 mins until crusty on top. Leave to cool, then run a knife around the sides and remove from the tin. Dust with icing sugar and serve warm with custard or ice cream or cold with cream.",
     ],
-    imgUrl: "../images/img3.jpg",
+    imgUrl: "../images/c2.jpg",
   },
   {
     id: 4,
-    name: "EASY BISCUITS",
+    name: "EASY CHOCOLATE CHIP BISCUITS",
+    rating: 3.5,
+    users: 150,
     description:
       "This simple recipe for a basic biscuit dough can be adapted to suit your tastes – experiment with different shapes and flavours, from lemon fingers to chocolate",
     ingredients: [
@@ -92,6 +100,6 @@ export default [
       "Sift over the flour and stir until the mixture is well combined – you might need to get your hands in at the end to give everything a really good mix and press the dough together.",
       "For basic vanilla biscuits: Pre-heat the oven to 180C/160C fan/gas 4. Chill the dough for 20 - 30minutes, roll out and cut out shapes as above. Bake on a non-stick baking tray for 10-12 minutes until pale golden. Carefully transfer to a wire rack to cool and crisp up.",
     ],
-    imgUrl: "../images/img3.jpg",
+    imgUrl: "../images/img6.jpg",
   },
 ];

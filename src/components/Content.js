@@ -2,13 +2,14 @@ import "../index.css";
 import Footer from "./Footer";
 import { useState } from "react";
 import RecipeCards from "./RecipeCards";
+import { Link } from "react-router-dom";
 
 export default function Content() {
   let [cards, setCards] = useState(RecipeCards);
   return (
     <>
       <div className="content container-fluid justify-content-center text-center  p-5  ">
-        <h1 className="mb-5">OUR MOST FAVOURITE RECIPES</h1>
+        <h1 className="mb-5 pt-5">OUR MOST FAVOURITE RECIPES</h1>
 
         <div className="cards pb-5">
           {cards.map((card) => (
@@ -30,8 +31,9 @@ export default function Content() {
                 </p>
               </li>
               <p className="pt-1 pb-3 title">{card.title}</p>
-              {/* <p>{card.button}</p> */}
-              <button id={card.id}>GO TO RECIPE</button>
+              <Link to={"./recipes/${card.id}"}>
+                <button id={card.id}>GO TO RECIPE</button>
+              </Link>
             </ul>
           ))}
         </div>
