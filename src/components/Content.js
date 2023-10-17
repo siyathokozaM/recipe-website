@@ -3,11 +3,10 @@ import Footer from "./Footer";
 import { useState } from "react";
 import RecipeCards from "./RecipeCards";
 import { Link } from "react-router-dom";
-import { useParams } from "react-router-dom";
 
 export default function Content() {
   let [cards, setCards] = useState(RecipeCards);
-  const { id } = useParams();
+
   return (
     <>
       <div className="content container-fluid justify-content-center text-center  p-5  ">

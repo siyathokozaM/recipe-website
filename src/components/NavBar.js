@@ -36,11 +36,6 @@ export default function NavBar() {
                 Contact us
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink to="/details" className="nav-link">
-                recipePage
-              </NavLink>
-            </li>
           </ul>
 
           <div className="button--box">
