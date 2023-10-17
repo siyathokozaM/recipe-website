@@ -6,6 +6,9 @@ import img2 from "../images/img12.jpg";
 import img3 from "../images/img10.jpg";
 import img4 from "../images/c8.jpg";
 import About from "./About";
+import Content from "./Content";
+import Contact from "./Contact";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -90,10 +93,14 @@ export default function Hero() {
           {" "}
           <strong>OUR MOST FAVOURITE RECIPES </strong>{" "}
         </h1>
-
-        <button className="explore-button">EXPLORE NOW</button>
+        <Link to="./recipes">
+          <button className="explore-button">EXPLORE NOW</button>
+        </Link>
       </div>
-      <Footer />
+      {/* <Footer/> */}
+      <About />
+      <Content />
+      <Contact />
     </>
   );
 }

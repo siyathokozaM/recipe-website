@@ -18,9 +18,9 @@ import img15 from "../images/img8.jpg";
 
 export default function About() {
   return (
-    <div className="about--us   pt-5 ">
-      <div className="container justify-content-center text-center d-md-flex flex-md-row mb-5">
-        <div className=" shadow crd m-2 m-lg-5 p-3 j text-center border">
+    <div className="about--us pt-5 pb-5 ">
+      <div className="container justify-content-center text-center d-md-flex flex-md-row pb-5">
+        <div className=" shadow crd m-2 r m-lg-5 p-3 j text-center border">
           <div className="feature-icon   align-items-center  fs-2 bg-gradient mb-3">
             <i className="fa-sharp fa-solid fa-star fa-2xl p-3"></i>
           </div>
@@ -40,8 +40,8 @@ export default function About() {
         </div>
       </div>
 
-      <div className="container border p-5 mb-5">
-        <div className="row">
+      <div className="container border p-5 pb-5">
+        <div className="row mb-5">
           <div className="col-sm-12 col-lg-6">
             <h4 className="mb-5"></h4>
 
@@ -55,10 +55,6 @@ export default function About() {
             </p>
           </div>
           <div className="col-sm-12 col-lg-6 grid align-items-center d-flex">
-            <div className="flex-column">
-              {/* <img className="img-fluid " src={img1} /> */}
-            </div>
-
             <div className="flex-column">
               <img className="img-fluid m-2" src={img2} />
               <img className="img-fluid m-2" src={img3} />
@@ -87,7 +83,6 @@ export default function About() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

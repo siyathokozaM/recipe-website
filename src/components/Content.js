@@ -12,7 +12,7 @@ export default function Content() {
       <div className="content container-fluid justify-content-center text-center  p-5  ">
         <h1 className="mb-5 pt-5">OUR MOST FAVOURITE RECIPES</h1>
 
-        <div className="cards pb-5">
+        <div className="cards mt-5 mb-5 pt-5 pb-5">
           {cards.map((card) => (
             <ul className="m-2">
               <li id={card.id}>
@@ -33,14 +33,16 @@ export default function Content() {
               </li>
               <p className="pt-1 pb-3 title">{card.title}</p>
               <Link to={`./${card.id}`}>
-                <button id={card.id}>GO TO RECIPE</button>
+                <button className="mb-5" id={card.id}>
+                  GO TO RECIPE
+                </button>
               </Link>
             </ul>
           ))}
         </div>
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

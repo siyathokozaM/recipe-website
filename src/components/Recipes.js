@@ -13,7 +13,7 @@ export default function Recipes() {
     if (selectedRecipe) {
       setDetail(selectedRecipe);
     }
-  }, [id]);
+  }, [id]); // tell useEfect to listen to the id to run the code above
 
   return (
     <div className="bg pt-5 pb-5">

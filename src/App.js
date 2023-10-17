@@ -3,6 +3,7 @@ import Hero from "./components/Home";
 import About from "./components/About";
 import Content from "./components/Content";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 import Recipes from "./components/Recipes";
 import {
@@ -26,6 +27,8 @@ export default function App() {
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/details" element={<Recipes />}></Route>
       </Routes>
+
+      <Footer />
     </div>
   );
 }

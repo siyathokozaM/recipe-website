@@ -4,47 +4,53 @@ import { NavLink } from "react-router-dom";
 export default function NavBar() {
   return (
     <div className="">
-      <div className="container-fluid shadow navBar  ">
-        <header className="d-flex flex-wrap justify-content-md-center py-3  ">
-          <NavLink
-            to="/"
-            className="logo fs-4 d-flex mb-3 mb-md-0 me-md-auto text-decoration-none"
-          >
+      <nav class="navbar shadow-lg navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <NavLink to="/" className="logo navbar-brand text-decoration-none">
             <span className="sweet">SWEET</span>
             <span className="tooth">•TOOTH</span>
           </NavLink>
-
-          <ul className="nav nav-pills">
-            <li className="nav-item">
-              <NavLink to="/" className="nav-link " aria-current="page">
-                Home
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/about" className="nav-link">
-                About
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/recipes" className="nav-link">
-                Recipes
-              </NavLink>
-            </li>
-
-            <li className="nav-item">
-              <NavLink to="/contact" className="nav-link">
-                Contact us
-              </NavLink>
-            </li>
-          </ul>
-
-          <div className="button--box">
-            <button className="menu--bar">
-              <i className="fa fa-bars menu--bar" aria-hidden="true"></i>
-            </button>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            {/* <span class="navbar-toggler-icon "></span> */}
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item p-2">
+                <NavLink to="/" className="nav-link " aria-current="page">
+                  Home
+                </NavLink>
+              </li>
+              <li class="nav-item p-2">
+                <NavLink to="/about" className="nav-link">
+                  About
+                </NavLink>
+              </li>
+              <li class="nav-item p-2">
+                <NavLink to="/recipes" className="nav-link">
+                  Recipes
+                </NavLink>
+              </li>
+              <li class="nav-item p-2">
+                <NavLink to="/contact" className="nav-link">
+                  Contact us
+                </NavLink>
+              </li>
+            </ul>
           </div>
-        </header>
-      </div>
+        </div>
+      </nav>
     </div>
   );
 }
