@@ -235,9 +235,12 @@
 }
 
 /********************************************** RECIPE ***********************************/
-
+.bg {
+  background: #fff;
+}
 .recipe {
   background: #ffffff;
+  width: fit-content;
 }
 
 .recipe img {
@@ -256,18 +259,23 @@
   list-style-type: none;
 }
 
-/* .recipe .ingred li::marker {
-  content:"-" ;
-  color: #0e9494;
-  font-size: 1.2rem;
-} */
-
 .recipe .list-icon {
   max-width: 40px;
 }
 .recipe .instr ul {
   list-style-type: none;
   padding: 0;
+}
+
+@media (max-width: 768px) {
+  .recipe img {
+    max-width: 350px;
+  }
+}
+@media (max-width: 425px) {
+  .recipe img {
+    max-width: 300px;
+  }
 }
 /********************************************** CONTACT **********************************/
 

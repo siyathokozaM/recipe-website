@@ -1,7 +1,7 @@
 export default [
   {
     id: 1,
-    name: " EASY CHOCOLATE CAKE",
+    name: "CHOCOLATE CAKE",
     rating: 4.9,
     users: 3075,
     description:
@@ -58,7 +58,7 @@ export default [
   },
   {
     id: 3,
-    name: "EASY CHOCOLATE BROWNIE CAKE",
+    name: "VANILLA CUPCAKES",
     rating: 4.5,
     users: 400,
     description:
@@ -82,7 +82,7 @@ export default [
   },
   {
     id: 4,
-    name: "EASY CHOCOLATE CHIP BISCUITS",
+    name: "CHOCOLATE CHIP BISCUITS",
     rating: 3.5,
     users: 150,
     description:
