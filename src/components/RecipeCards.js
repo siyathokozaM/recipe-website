@@ -17,10 +17,10 @@ export default [
   },
   {
     id: 3,
-    imgUrl: "../images/c2.jpg",
+    imgUrl: "../images/brownie.jpg",
     rating: 4.5,
     users: 400,
-    title: "EASY VANILLA CUPCAKES",
+    title: "EASY BROWNIE CAKES",
     button: <button>Go to recipe</button>,
   },
   {

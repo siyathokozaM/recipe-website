@@ -12,11 +12,17 @@
 }
 /************************************ NAVBAR ********************************/
 
+.navb {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
 .navBar {
   position: sticky;
   /* background: rgb(234, 223, 223, 0.7); */
   background: #fff;
-  /* top: auto; */
+  top: 0;
 }
 
 .navbar .fa-bars {
@@ -188,6 +194,21 @@
 
 /********************************************* CONTENT *******************************/
 
+.go-back {
+  background: none;
+  color: #000;
+  font-weight: 600;
+  border: none;
+  border-bottom: 3px solid #0e9494;
+}
+
+.fa-long-arrow-left {
+  margin-right: 7px;
+}
+
+.go-back:hover {
+  color: #0e9494;
+}
 .content {
   background: #f6f6f6;
 }

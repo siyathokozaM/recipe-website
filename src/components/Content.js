@@ -10,6 +10,8 @@ export default function Content() {
   return (
     <>
       <div className="content container-fluid justify-content-center text-center  p-5  ">
+        <br />
+        <br />
         <h1 className="mb-5 pt-5">OUR MOST FAVOURITE RECIPES</h1>
 
         <div className="cards mt-5 mb-5 pt-5 pb-5">
@@ -33,9 +35,7 @@ export default function Content() {
               </li>
               <p className="pt-1 pb-3 title">{card.title}</p>
               <Link to={`./${card.id}`}>
-                <button className="mb-5" id={card.id}>
-                  GO TO RECIPE
-                </button>
+                <button className="mb-5">GO TO RECIPE</button>
               </Link>
             </ul>
           ))}

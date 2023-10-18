@@ -58,7 +58,7 @@ export default [
   },
   {
     id: 3,
-    name: "VANILLA CUPCAKES",
+    name: "BROWNIE CAKES",
     rating: 4.5,
     users: 400,
     description:
@@ -78,7 +78,7 @@ export default [
       "Whisk the egg whites until they form soft peaks, then gently, but thoroughly, fold into the chocolate mixture.",
       "Pour into the prepared tin and bake in the centre of the oven for about 35-40 mins until crusty on top. Leave to cool, then run a knife around the sides and remove from the tin. Dust with icing sugar and serve warm with custard or ice cream or cold with cream.",
     ],
-    imgUrl: "../images/c2.jpg",
+    imgUrl: "../images/brownie.jpg",
   },
   {
     id: 4,

@@ -18,8 +18,8 @@ import img15 from "../images/img8.jpg";
 
 export default function About() {
   return (
-    <div className="about--us pt-5 pb-5 ">
-      <div className="container justify-content-center text-center d-md-flex flex-md-row pb-5">
+    <div className="about--us mt-5 pt-5 pb-5 ">
+      <div className="container pt-5 shadow-lg justify-content-center text-center d-md-flex flex-md-row pb-5">
         <div className=" shadow crd m-2 r m-lg-5 p-3 j text-center border">
           <div className="feature-icon   align-items-center  fs-2 bg-gradient mb-3">
             <i className="fa-sharp fa-solid fa-star fa-2xl p-3"></i>

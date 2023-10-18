@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import recipes from "./RecipeDetails"; // Import your recipe data
+import { useNavigate } from "react-router-dom";
 
 export default function Recipes() {
   const { id } = useParams();
@@ -15,8 +16,15 @@ export default function Recipes() {
     }
   }, [id]); // tell useEfect to listen to the id to run the code above
 
+  const navigate = useNavigate();
+
   return (
-    <div className="bg pt-5 pb-5">
+    <div className="bg pt-5 pb-5  ">
+      <br />
+      <br />
+      <button className=" m-5 p-2 go-back" onClick={() => navigate(-1)}>
+        <i class="fa fa-long-arrow-left" aria-hidden="true"></i>GO BACK
+      </button>
       <div className="recipe container justify-content-center pt-5">
         {detail && (
           <div id={detail.id} className="row">
